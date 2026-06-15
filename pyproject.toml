@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uc-intg-wholphin"
+version = "1.0.0"
+description = "Wholphin integration for Unfolded Circle Remote Two/3"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MPL-2.0"}
+authors = ["James Snow <james@snowapps.com>"]
+keywords = ["wholphin", "jellyfin", "unfolded-circle", "remote", "integration", "android-tv"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Home Automation",
+    "Topic :: Multimedia"
+]
+dependencies = [
+    "ucapi>=0.6.0",
+    "ucapi-framework>=1.9.2",
+    "aiohttp>=3.9.0",
+    "jellyfin-apiclient-python>=1.10.0",
+    "certifi",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seattlejames/wholfin-unfolded-circle-integration"
+"Jellyfin API Client" = "https://github.com/jellyfin/jellyfin-apiclient-python"
+
+[tool.setuptools.packages.find]
+include = ["uc_intg_wholphin*"]
+
+[tool.setuptools.package-data]
+uc_intg_wholphin = ["*.json"]

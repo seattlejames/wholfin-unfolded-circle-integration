@@ -1,0 +1,39 @@
+{
+  "driver_id": "uc_intg_wholphin",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "Wholphin"
+  },
+  "icon": "uc:tv-music",
+  "description": {
+    "en": "Control your Wholphin Android TV player (via Jellyfin) with full media player and remote control support."
+  },
+  "developer": {
+    "name": "James Snow",
+    "email": "james@snowapps.com",
+    "url": "https://github.com/seattlejames/wholfin-unfolded-circle-integration"
+  },
+  "home_page": "https://github.com/seattlejames/wholfin-unfolded-circle-integration",
+  "release_date": "2026-06-14",
+  "setup_data_schema": {
+    "title": {
+      "en": "Wholphin / Jellyfin Server Setup"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "Connect to Jellyfin Server"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "Enter your Jellyfin server URL and credentials. The integration will discover active Wholphin sessions automatically."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
