@@ -67,7 +67,7 @@ Full D-Pad navigation — send UI commands directly to the Wholphin app:
 
 ### Option 1: Upload to Remote (Recommended)
 
-1. Download the latest `uc-intg-wholphin-<version>-aarch64.tar.gz` from the [Releases](../../releases) page.
+1. Download the latest `uc-intg-wholphin-<version>-aarch64.tar.gz` from the "Releases" page.
 2. Open your remote's web interface: `http://<your-remote-ip>`
 3. Go to **Settings → Integrations → Add Integration**
 4. Click **Upload** and select the downloaded `.tar.gz` file.
@@ -77,7 +77,7 @@ Full D-Pad navigation — send UI commands directly to the Wholphin app:
 ```yaml
 services:
   uc-intg-wholphin:
-    image: ghcr.io/YOUR_USERNAME/uc-intg-wholphin:latest
+    image: ghcr.io/seattlejames/uc-intg-wholphin:latest
     container_name: uc-intg-wholphin
     network_mode: host
     volumes:
@@ -148,7 +148,7 @@ The integration polls the Jellyfin server every **5 seconds**. New Wholphin sess
 ## Development Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/uc-intg-wholphin.git
+git clone https://github.com/seattlejames/uc-intg-wholphin.git
 cd uc-intg-wholphin
 
 python -m venv venv
