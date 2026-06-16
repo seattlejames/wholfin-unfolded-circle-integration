@@ -43,7 +43,6 @@ uc-intg-wholphin   ──── Jellyfin HTTP API ────►  Jellyfin Serv
 ### 📚 Library Browser & Search
 - Browse all Jellyfin libraries (Movies, TV Shows, Music, etc.)
 - Full-text search across the entire library
-- Queue any item to the Wholphin player directly from the UC3 remote
 
 ### 🖱️ Remote Control Entity
 Full D-Pad navigation — send UI commands directly to the Wholphin app:
