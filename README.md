@@ -1,3 +1,4 @@
+<img width="1760" height="3773" alt="PXL_20260616_104444016" src="https://github.com/user-attachments/assets/c08232f7-bab6-46d2-97df-c84dffcdeab1" />
 # Wholphin Integration for Unfolded Circle Remote 2/3
 
 Control your [Wholphin](https://github.com/damontecres/Wholphin) Android TV player directly from your Unfolded Circle Remote 2 or Remote 3.
@@ -48,6 +49,8 @@ uc-intg-wholphin   ──── Jellyfin HTTP API ────►  Jellyfin Serv
 Full D-Pad navigation — send UI commands directly to the Wholphin app:
 - Arrow keys, OK/Select, Back, Home, Menu
 - Numeric keypad (0–9)
+
+<img width="1760" height="3773" alt="PXL_20260616_104444016" src="https://github.com/user-attachments/assets/f7a5455a-fae5-447a-b836-b8644f448ad6" />
 
 ---
 
